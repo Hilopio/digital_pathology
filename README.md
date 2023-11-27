@@ -11,8 +11,6 @@ transfer learning CNN based on imagenet for medical image classification
 - Nikolaev_Gleb.pdf
 - README.md
   описание
-- best.keras
-  на всякий пожарный случай
 
 # Описание:
 модель получена из сверточной нейронной сети imagenet, путем заморозки весов, избавления от верхних классифицирующих слоев
@@ -26,7 +24,7 @@ transfer learning CNN based on imagenet for medical image classification
 
 # Детали
 Ноутбук должен запуститься без дополнительных действий, но на случай непредвиденных обстоятельств
-можно поместить файлы с данными и сохраненную модель в /content/drive/MyDrive/ и попробовать запустить так
+можно поместить файлы с данными в /content/drive/MyDrive/ и попробовать запустить так
 
 # Итог
 Точность(Accuracy) достигает 91-92%
